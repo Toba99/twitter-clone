@@ -1,0 +1,397 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Oxygen', sans-serif;
+}
+.wrapper{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-color:#10171e;
+}
+
+.mainbody{
+	width: 1200px;
+	height: auto;
+	margin: 10px auto 10px auto;
+	overflow: hidden;
+}
+.col1{
+	width: 23%;
+	float: left;
+	height: 600px;
+	overflow: hidden;
+	background-color: #1c2938;
+}
+.col2{
+	width: 50%;
+	margin-left: 2%;
+	float: left;
+	height: 400px;
+	background-color: tomato;
+}
+.col3{
+	width: 23%;
+	float: right;
+	height: 330px;
+	background-color: #1c2938;
+}
+
+
+.logo{
+	margin: 0 auto 0 auto;
+	width: 60px;
+	height: 60px;
+	background-image: url('../img/twitter (1).png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.trend-box{
+	height: 380px;
+	background-color: black;
+	width: auto;
+	position: relative;
+	overflow: hidden;
+}
+.followers-box{
+	height: 220px;
+	background-image: url('../img/burger.png');
+	width: auto;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer; 
+}
+.followers-box-banner{
+	position: absolute;
+	top:0px;
+	left:0px;	
+	right: 0px;
+	height: 45%;
+	background-color: ;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.followers-box-info-wrapper{
+	height: 70%;
+	margin-top: 30%;
+	background-color: #666;
+	width: auto;
+} 
+.followers-box-bar{
+	height: 50%;
+	display: block;
+	background-color: #1c2938;
+	width: auto;
+	padding: 0 10px 0 10px;
+} 
+.followers-box-icon-wrapper{
+	height: 50%;
+	background-color: #1c2938;
+	display: flex;
+	width: auto;
+}
+.followers-box-icon{
+	height: 60px;
+	background-image: url('../img/toba.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 2px solid white;
+	width: 30%;
+	float: left;
+	border-radius: 35px;
+	margin-left: 10px;
+	background-color: #15202b;
+    margin: -24px 0 0 8px;
+    padding: 1px;
+    vertical-align: bottom;
+
+}
+.text-info{
+	float: right;
+	color: white;
+	margin-right: 30px;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: 200;
+}
+.toolbar-title-main{
+	font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+.toolbar-count-main{
+    font-size: 20px;
+    color: #1DA1F2;
+    font-weight: 600;
+}
+.toolbar1,
+.toolbar2,
+.toolbar3{
+	width: 33%;
+	float: left;
+	height: 60px;
+}
+.toolbar-title{
+	font-size: 0.9rem;
+	display: block;
+	margin: 0 5px 0 5px;
+	color: grey;
+	font-weight: 500;
+}
+.toolbar-count{
+	font-size: 1.1rem;
+	display: block;
+	margin: 0 5px 0 5px;
+	color: #1DA1F2;
+	font-weight: 600;
+}
+.trend-box{
+	background-color: #1c2938;
+	float: right;
+	color: white;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight: 200;
+}
+.toolbar-title1{
+	font-size: 20px;
+    color: white;
+    display: block;
+    font-weight: 600;
+}
+.toolbar-count12{
+	cursor: pointer;
+	font-size: 15px;
+    color: #1DA1F2;
+    font-weight: 600;
+}
+.toolbar-title2{
+	cursor: pointer;
+	font-size: 17px;
+    color: #1DA1F2;
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.extra{
+	font-size: 0.6rem;
+	display: block;
+	color: grey;
+	font-weight: 500;
+}
+.feeds{
+	height: 100%;
+	width: 100%;
+
+}
+.feeds1{
+	display: flex;
+	background-color: #1c2938;
+	height: 20%;
+}
+.compose-tweets{
+	height: 40px;
+    width: 500px;
+    margin-top: 10px;
+    background-color: #34495E;
+    border-radius: 12px;
+    border: 1px solid #1DA1F2;
+}
+.compose-tweets-container{
+	width: 90%;
+	height: 100%;
+	float: left;
+	text-align: left;
+	margin-top:10px;
+	color: grey; 
+}
+.compose-tweets-picture{
+	width: 10%;
+	height: 100%;
+	float: right;
+	background-image:  url('../img/picture.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+.see-new-tweets{
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+  	height: 10%;
+	background-color: #1c2938;
+	display: flex;
+}
+.see-new-tweets:hover{
+	cursor: pointer;
+	background: #273746;
+}
+.feeds2{
+	display: flex;
+	background-color: #1c2938;
+	height: 75%;
+}
+.feeds2:hover{
+	cursor: pointer;
+	background: #273746;
+}
+
+.user-icon2{
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+	background-image: url('../img/burger.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+	border-radius: 20px;
+}
+.user-icon3{
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+	background-image: url('../img/apple.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.user-icon4{
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+	background-image: url('../img/android.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.user-icon5{
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+	background-image: url('../img/football.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.user-icon6{
+	height: 40px;
+	width: 40px;
+	margin: 10px;
+	background-image: url('../img/peeps.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	background-color: ;
+	border-radius: ;
+}
+.finally{
+	margin-top: 15px;
+}
+.again{
+	color: white;
+	display: flex;
+}
+.again:hover{
+	text-decoration: underline;
+	background: unset;
+	cursor: pointer;
+	color: #1DA1F2;
+}
+.finally-image{
+	height: 232px;
+    width: 375px;
+	background-image: url('../img/burger.png');
+	background-repeat:no-repeat; 
+	background-position: center;
+	background-color: black;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.follow-bar{
+	padding: 0 5px 0 5px;
+}
+.follow-bar-header{
+	display: flex;
+	margin-top: 10px;
+	height: 10%;
+}
+.toolbar-count123{
+	cursor: pointer;
+    font-size: 10px;
+    color: #1DA1F2;
+    font-weight: 600;
+}
+.toolbar-count123:hover{
+	text-decoration: underline;
+	background: unset;
+}
+.toolbar-count1234{
+	cursor: pointer;
+    font-size: 10px;
+    color: #1DA1F2;
+    font-weight: 600;
+}
+.toolbar-count1234:hover{
+	text-decoration: underline;
+	background: unset;
+}
+.main-follow{
+	height: 90%;
+	margin-top: 10px;
+	padding: 0 5px 0 5px;
+}
+.kid{
+	display: flex;
+}
+.firstone{
+	margin-top: 10px;
+}
+.firstone-bottom{
+	display: flex;
+}
+.extra6{
+	margin-top: 20px;
+	cursor: pointer;
+    font-size: 10px;
+    color: #1DA1F2;
+    font-weight: 600;
+}
+.extra6:hover{
+	text-decoration: underline;
+	background: unset;
+}
+.follow{
+	width: 100px;
+	height: 50px;
+	
+	position: relative;
+}
+.followthem{
+	margin: 5px;
+    background: #1c2938;
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+    line-height: 38px;
+    border-radius: 20px;
+    border:1px solid #1DA1F2;
+}
+.followthem:hover{
+	cursor: pointer;
+	background: #273746;
+}
